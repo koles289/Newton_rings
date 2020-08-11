@@ -1,2 +1,3 @@
 # Newton_rings
-Image_processing_semestral_project
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
