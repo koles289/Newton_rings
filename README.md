@@ -7,4 +7,11 @@ The example of provided image is below.
 
 On the images we can see concentric circumferences under different light. The theory tells that by calculating the radius of circumferences, we can get the wavelength of used light. For more theory, you can read this article in wikipedia https://en.wikipedia.org/wiki/Newton%27s_rings.
 
-Goal of this project is to determine in the most precise way the exact radius. This task is quite difficult due to heavy noise. 
+The goal of this project is to determine in the most precise way the exact radius. This task is quite difficult due to heavy noise in images. The solution consist of following steps:
+1. Preprocessing
+a) RBG image is converted to grayscale
+b) Contrast in image is adjusted using apriori information 
+c) Noise is removed using image restoration algorithms (inpaint method)
+2. Segmentation
+a) segmentation of image using 
+
