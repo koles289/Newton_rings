@@ -10,8 +10,13 @@ On the images we can see concentric circumferences under different light. The th
 The goal of this project is to determine in the most precise way the exact radius. This task is quite difficult due to heavy noise in images. The solution consist of following steps:
 1. Preprocessing
 a) RBG image is converted to grayscale
-b) Contrast in image is adjusted using apriori information 
-c) Noise is removed using image restoration algorithms (inpaint method)
-2. Segmentation
-a) segmentation of image using 
+b) Contrast in image is adjusted using apriori information (function adapthisteq in main)
+c) Mask is created in order to determine clearly dehraded pizel based on their Color Saliency
+d) Heavily degraded pixels are restored using inpaint (inpaintnans)
+e) Image is filtered using wavelet denoising (wtdenoise)
+2. Binarization
+a) Image is binarized using average
+b) Image is processed using morphological operations of closing and opening
+3. Measurement 
+The integral part of measuremnt of radius of concentrich circunferences in determination of centrail point. This task is the biggest challenge in 
 
