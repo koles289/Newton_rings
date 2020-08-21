@@ -3,7 +3,7 @@ This is semesteral thesis for course  called analysis of biomedical images. The 
 The example of provided image is below.<br>
 
 <p align="center">
-<img src="https://github.com/koles289/Newton_rings/blob/master/blue_4x_2.png" width="370" align="left" > <img src="https://github.com/koles289/Newton_rings/blob/master/green_10x_3.png" width="370" align="right" >
+<img src="https://github.com/koles289/Newton_rings/blob/master/blue_4x_2.png" width="370" /> <img src="https://github.com/koles289/Newton_rings/blob/master/green_10x_3.png" width="370" />
 </p>
 
 <p align="center">
