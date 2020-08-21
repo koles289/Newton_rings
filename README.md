@@ -6,7 +6,9 @@ The example of provided image is below.<br>
 <img src="https://github.com/koles289/Newton_rings/blob/master/blue_4x_2.png" width="370" align="left" > <img src="https://github.com/koles289/Newton_rings/blob/master/green_10x_3.png" width="370" align="right" >
 </p>
 
-
+<p align="center">
+  <br>
+</p>
 <br>On the images we can see concentric circumferences under different light. The theory tells that by calculating the radius of circumferences, we can get the wavelength of used light. For more theory, you can read this article in wikipedia https://en.wikipedia.org/wiki/Newton%27s_rings.
 
 The goal of this project is to determine in the most precise way the exact radius. This task is quite difficult due to heavy noise in images. The solution consist of following steps:<br>
